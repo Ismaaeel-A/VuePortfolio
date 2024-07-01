@@ -1,7 +1,21 @@
 <template>
+  <div> <!-- class="wrapper" -->
+    <NavBar />
+    <main class="container-fluid">
+      <router-view />
+    </main>
 
+  </div>
 </template>
 
-<style>
+<script>
+import NavBar from './components/NavBar.vue'
 
-</style>
+export default {
+  components: {
+    NavBar
+  }
+}
+</script>
+
+<style src="./assets/css/style.css"></style>
