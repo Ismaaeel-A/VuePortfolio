@@ -8,37 +8,35 @@
       <AboutSection />
     </section>
 
-    <section class="row" id="resume">
+    <section class="row" id="education">
       <EducationExperienceSection />
     </section>
 
-    <section class="row" id="project">
-
+    <section class="row" id="skills">
+      <SkillsSection />
     </section>
+      
+    <section class="row" id="project"></section>
 
-    <section class="row" id="testimonials">
+    <section class="row" id="testimonials"></section>
 
-    </section>
-
-    <section class="row" id="reachMe">
-
-    </section>
+    <section class="row" id="reachMe"></section>
   </div>
 </template>
 
 <script>
-import LandingSection from "../components/LandingSection.vue"
-import AboutSection from "../components/AboutSection.vue"
-import EducationExperienceSection from "../components/EducationExperienceSection.vue"
-
+import LandingSection from "../components/LandingSection.vue";
+import AboutSection from "../components/AboutSection.vue";
+import EducationExperienceSection from "../components/EducationExperienceSection.vue";
+import SkillsSection from "../components/SkillsSection.vue";
 
 export default {
-
-  name: 'HomeView',
+  name: "HomeView",
   components: {
     LandingSection,
     AboutSection,
-    EducationExperienceSection
-  }
-}
+    EducationExperienceSection,
+    SkillsSection,
+  },
+};
 </script>

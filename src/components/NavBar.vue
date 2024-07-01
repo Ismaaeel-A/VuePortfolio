@@ -18,7 +18,11 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link mx-2" href="#resume">Resume</a>
+                        <a class="nav-link mx-2" href="#education">Education</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link mx-2" href="#skills">Skills</a>
                     </li>
 
                     <li class="nav-item">
