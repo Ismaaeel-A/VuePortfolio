@@ -40,3 +40,19 @@ img {
 img[alt="logo"] {
     width: 5rem;
 }
+
+li{
+    margin-left: 2rem;
+}
+
+h3{
+    text-decoration: underline;
+}
+
+.landingSec{
+    height: 90vh;
+}
+
+section{
+    scroll-margin-block: 7rem;
+}

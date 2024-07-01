@@ -10,7 +10,7 @@
                 <ul class="navbar-nav ms-auto px-3">
 
                     <li class="nav-item">
-                        <router-link class="nav-link mx-2 active" aria-current="page" to="/">Home</router-link>
+                        <a class="nav-link mx-2" href="#landing">Home</a>
                     </li>
 
                     <li class="nav-item">
