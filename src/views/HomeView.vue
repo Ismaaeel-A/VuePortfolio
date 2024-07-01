@@ -16,11 +16,17 @@
       <SkillsSection />
     </section>
       
-    <section class="row" id="project"></section>
+    <section class="row" id="project">
+      <ProjectsSection/>
+    </section>
 
-    <section class="row" id="testimonials"></section>
+    <section class="row" id="testimonials">
 
-    <section class="row" id="reachMe"></section>
+    </section>
+
+    <section class="row" id="reachMe">
+
+    </section>
   </div>
 </template>
 
@@ -29,6 +35,9 @@ import LandingSection from "../components/LandingSection.vue";
 import AboutSection from "../components/AboutSection.vue";
 import EducationExperienceSection from "../components/EducationExperienceSection.vue";
 import SkillsSection from "../components/SkillsSection.vue";
+import ProjectsSection from "../components/ProjectsSection.vue"
+
+
 
 export default {
   name: "HomeView",
@@ -37,6 +46,7 @@ export default {
     AboutSection,
     EducationExperienceSection,
     SkillsSection,
+    ProjectsSection
   },
 };
 </script>
