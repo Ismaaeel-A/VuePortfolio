@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-      <div class="row vh-100 align-items-center text-center">
+      <div class="row landingSec align-items-center text-center">
         <div class="col">
           <img src="https://ismaaeel-a.github.io/allimages/Images/plc.png" alt="profile" loading="lazy">
         </div>
