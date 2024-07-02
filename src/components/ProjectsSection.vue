@@ -1,5 +1,5 @@
 <template>
-  <div class="row text-center">
+  <div class="row text-center justify-content-center">
     <h3>Projects</h3>
 
     <div class="row justify-content-center">
