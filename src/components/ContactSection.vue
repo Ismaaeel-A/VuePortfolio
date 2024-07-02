@@ -47,25 +47,19 @@
         </div>
 
         <div class="d-flex justify-content-center mt-4">
-          <a href="https://www.facebook.com/24AhmedOfficial/" target="_blank"
-            ><i class="lab la-facebook m-2"></i
-          ></a>
+          <i class="bi bi-telephone-fill"><span>081 789 8384</span></i>
           <a
             href="https://github.com/Ismaaeel-A?tab=repositories"
             target="_blank"
-            ><i class="lab la-github m-2"></i
+            ><i class="bi bi-github"></i
           ></a>
           <a
             href="https://www.linkedin.com/in/ismaaeel-ahmed-4125b72a1/"
             target="_blank"
-            ><i class="lab la-linkedin m-2"></i
+            ><i class="bi bi-linkedin"></i
           ></a>
         </div>
       </form>
     </div>
   </div>
 </template>
-
-<script></script>
-
-<style></style>
