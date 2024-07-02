@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
             <router-link class="navbar-brand" to="#"><img src="https://ismaaeel-a.github.io/allimages/Images/plc.png" alt="logo"></router-link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

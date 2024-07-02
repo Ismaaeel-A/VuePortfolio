@@ -3,7 +3,7 @@
     <div v-if="EducationExperience?.length" class="row">
       <h3>Education and Experience</h3>
 
-      <div v-for="(Edu, id) in EducationExperience" :key="id">
+      <div v-for="(Edu, id) in EducationExperience" :key="id" class="eduxp">
         <h5>{{ Edu.heading }}</h5>
         <p>{{ Edu.p }}</p>
       </div>

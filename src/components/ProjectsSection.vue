@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
-    <div class="row">
-      <h3>Projects</h3>
+  <div class="row text-center">
+    <h3>Projects</h3>
 
+    <div class="row justify-content-center">
       <Card v-for="(Project, id) in Projects" :key="id">
         <template #cardHeader>
           <img :src="Project.img" :alt="Project.title" class="img-fluid" />

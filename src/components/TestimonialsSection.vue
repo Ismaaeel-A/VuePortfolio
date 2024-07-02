@@ -1,20 +1,27 @@
 <template>
-  <div class="container">
-    <div class="row">
+
+    <div class="row text-center">
       <h3>Testimonials</h3>
 
-      <Card v-for="(Testimonial, id) in Testimonials" :key="id">
+<div class="row justify-content-center">
+  <Card v-for="(Testimonial, id) in Testimonials" :key="id">
         <template #cardHeader>
-            <img :src="Testimonial.image" :alt="Testimonial.personName" class="img-fluid" />
+          <img
+            :src="Testimonial.image"
+            :alt="Testimonial.personName"
+            class="img-fluid"
+          />
+          <h5>{{ Testimonial.personName }}</h5>
         </template>
 
         <template #cardBody>
-            <h5>{{ Testimonial.personName }}</h5>
-            <p>{{ Testimonial.comment }}</p>
+          <p>{{ Testimonial.comment }}</p>
         </template>
+
       </Card>
+</div>
     </div>
-  </div>
+
 </template>
 
 <script setup>
@@ -31,6 +38,9 @@ onMounted(() => {
 });
 </script>
 
-<style>
-
+<style scoped>
+h5 {
+  padding-top: 1rem;
+  text-decoration: underline;
+}
 </style>

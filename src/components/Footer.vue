@@ -1,5 +1,5 @@
 <template>
-    <footer class="container-fluid  shadow">
+    <footer class="container-fluid text-center">
         <div class="row">
 
             <p class="lead">
