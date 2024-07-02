@@ -1,10 +1,10 @@
 <template>
   <div class="card">
-    <div class="card-header">
+    <div class="card-header text-center">
       <slot name="cardHeader"></slot>
     </div>
 
-    <div class="card-body">
+    <div class="card-body text-center">
       <slot name="cardBody"></slot>
     </div>
   </div>
@@ -21,5 +21,6 @@ export default {
 
 .card{
   width: 18rem;
+  margin: 1rem;
 }
 </style>

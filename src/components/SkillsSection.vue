@@ -1,6 +1,8 @@
 <template>
   <div class="container">
     <div class="row">
+      <h3>Skills</h3>
+
       <div v-for="(Skill, id) in Skills" :key="id">
         <h5>{{Skill.heading}}</h5>
         <span>{{Skill.level}}</span>

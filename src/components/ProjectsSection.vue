@@ -1,6 +1,8 @@
 <template>
   <div class="container">
     <div class="row">
+      <h3>Projects</h3>
+
       <Card v-for="(Project, id) in Projects" :key="id">
         <template #cardHeader>
           <img :src="Project.img" :alt="Project.title" class="img-fluid" />
@@ -10,16 +12,16 @@
           <h5>{{ Project.title }}</h5>
           <p>{{ Project.description }}</p>
 
-          <a :href="Project.github" target="_blank"
-            ><button type="button">Github</button>
-          </a>
-          <a :href="Project.vercel" target="_blank"
-            ><button type="button">Vercel</button>
-          </a>
+          <div class="d-flex justify-content-evenly">
+            <a :href="Project.github" target="_blank"
+              ><button type="button">Github</button>
+            </a>
+            <a :href="Project.vercel" target="_blank"
+              ><button type="button">Vercel</button>
+            </a>
+          </div>
         </template>
-
       </Card>
-
     </div>
   </div>
 </template>
@@ -39,7 +41,7 @@ onMounted(() => {
 </script>
 
 <style scoped>
-    img{
-  width: 240px;
+img {
+  width: 100%;
 }
 </style>
