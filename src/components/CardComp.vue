@@ -27,7 +27,7 @@ export default {
 
   border: 5px solid #CE9461;
   border-radius: 20px;
-  box-shadow: inset 0 0 5px #6D6053;
+  box-shadow:  0 0 10px #242423;
 
 }
 

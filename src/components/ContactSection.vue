@@ -7,7 +7,7 @@
         action="https://formspree.io/f/xqkrjklb"
         method="POST"
       >
-        <div class="row">
+        <div class="row no-gutters" >
           <div>
             <h2 class="text-center">Contact Me:</h2>
             <div class="">
@@ -20,7 +20,7 @@
                 class="my-2 rounded"
               />
             </div>
-            <div class="">
+            <div >
               <input
                 type="email"
                 id="email"
@@ -66,6 +66,21 @@
 <style scoped>
 #formDiv{
   width: fit-content;
-  padding-inline: 0;
+}
+
+*{
+  padding: 0;
+}
+
+[type="submit"]:hover{
+  color: #CE9461;
+  transform: scale(0.95);
+  
+}
+
+[type="submit"]:active{
+  color: #242423;
+  transform: scale(0.95);
+  
 }
 </style>

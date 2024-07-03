@@ -56,8 +56,13 @@ img {
 }
 
 /* logo */
-img[alt="logo"] {
-    width: 5rem;
+[logo] {
+    color: var(--font);
+   border: 4px solid var(--font);
+
+   &:hover{
+    color: var(--accent);
+   }
 }
 
 li {
@@ -99,7 +104,7 @@ section {
 textarea {
     margin-inline: auto;
     width: 18rem;
-    height: 6rem;
+    min-height: 6rem;
     border: none;
     background-color: var(--primary);
     color: var(--background);
@@ -136,3 +141,17 @@ a:hover {
     text-shadow: 0 0 3px var(--font);
     color: var(--accent);
 }
+
+.noPad{
+    padding: 0;
+  }
+
+  @media (width < 768px){
+    .body{
+        font-size: smaller;
+    }
+
+    #card{
+        height: 25rem;
+    }
+  }

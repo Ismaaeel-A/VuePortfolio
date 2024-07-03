@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid">
-            <router-link class="navbar-brand" to="#"><h2>Ismaa'eel</h2></router-link>
+            <router-link class="navbar-brand" to="#"><h2 logo>Ismaa'eel</h2></router-link>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
