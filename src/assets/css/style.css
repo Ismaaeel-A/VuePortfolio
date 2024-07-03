@@ -1,47 +1,52 @@
 /* bootstrap icon */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* app */
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: "REM", sans-serif;
+    font-size: large;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* text-align: center; */
     color: #2c3e50;
 }
 
-nav {
-    padding: 30px;
-}
-
-nav a {
-    font-weight: bold;
-    color: #2c3e50;
-}
-
-nav a.router-link-exact-active {
-    color: #42b983;
-}
-
 /* universal selector */
 
 /* custom variables */
 :root {
-    --c1: #2ec4b6;
+    /*     --c1: #2ec4b6;
     --c2: #011627;
     --c3: #ff9f1c;
     --c4: #669bbc;
     --c5: #3d5a80;
-    --c6: #f2e9e4;
+    --c6: #f2e9e4; */
     --primary: #6D6053;
     --background: #BFA88A;
     --accent: #CE9461;
+    --font: #242423;
 }
 
 /* scrollbar */
 ::-webkit-scrollbar {
     display: none;
 }
+
+/* 
+::-webkit-scrollbar-track {
+    background: var(--primary);
+    border-radius: 10px;
+} */
+
+/* Scrollbar Colour */
+/* ::-webkit-scrollbar-thumb {
+    background: linear-gradient(var(--accent), var(--background));
+    border-radius: 10px;
+
+} */
 
 /* select all img */
 img {
@@ -68,28 +73,27 @@ h3 {
 }
 
 section {
-    scroll-margin-block: 7rem;
+    scroll-margin-block: 4.3rem;
     min-height: 100vh;
     /*  max-height: fit-content; */
     justify-content: center;
-    padding: 2rem;
+    padding-block: 2rem;
     border-bottom: 4px solid var(--accent);
 }
 
 .body {
     background-color: var(--background);
-    color: var(--c2);
-    box-shadow: inset 0 0 100px black;
+    color: var(--font);
+    box-shadow: inset 0 0 70px black;
 }
 
 .navbar {
     background-color: var(--primary);
     border-bottom: 5px solid var(--accent);
-
 }
 
 .eduxp {
-    margin-block: 1.5rem;
+    margin-block: 1.6rem;
 }
 
 textarea {
@@ -123,7 +127,12 @@ footer {
 i {
     font-size: x-large;
 
-    & span{
+    & span {
         font-size: medium;
     }
+}
+
+a:hover {
+    text-shadow: 0 0 3px var(--font);
+    color: var(--accent);
 }

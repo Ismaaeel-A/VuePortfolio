@@ -10,16 +10,17 @@
 
         <template #cardBody>
           <h5>{{ Project.title }}</h5>
-          <p>{{ Project.description }}</p>
 
           <div class="d-flex justify-content-evenly">
             <a :href="Project.github" target="_blank"
-              ><button type="button">Github</button>
+              ><button type="button"><i class="bi bi-github"></i></button>
             </a>
             <a :href="Project.vercel" target="_blank"
-              ><button type="button">Vercel</button>
+              ><button type="button"><i class="bi bi-play-fill"></i></button>
             </a>
           </div>
+
+          <p>{{ Project.description }}</p>
         </template>
       </Card>
     </div>
@@ -44,4 +45,10 @@ onMounted(() => {
 img {
   width: 100%;
 }
+
+button{
+  border-radius: 100px;
+}
+
+
 </style>

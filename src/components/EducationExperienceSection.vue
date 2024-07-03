@@ -24,3 +24,7 @@ onMounted(() => {
   console.log("EduExp Dispatch");
 });
 </script>
+
+<style scoped>
+
+</style>

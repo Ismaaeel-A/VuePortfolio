@@ -52,3 +52,11 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+#reachMe{
+  min-height: fit-content;
+}
+
+
+</style>

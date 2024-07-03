@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div v-if="About?.length" class="row">
+    <div v-if="About?.length" class="row " >
       <h3>About</h3>
       <p>{{ About[0]?.p1 }}</p>
 
@@ -28,3 +28,14 @@ onMounted(() => {
   console.log("About Dispatch");
 });
 </script>
+
+<style scoped>
+  p, ul {
+    margin-block: 1.5rem;
+
+    & li {
+      margin-block: 1rem;
+    }
+  }
+
+</style>

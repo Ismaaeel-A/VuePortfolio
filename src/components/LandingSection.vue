@@ -9,8 +9,6 @@
           <div class="details">
             <h1 class="display-1">Ismaa'eel Ahmed</h1>
             <p><span>Developer</span></p>
-  
-
           </div>
         </div>
   
@@ -20,7 +18,7 @@
 
   <style scoped>
   img{
-    min-width: 20rem;
+    min-width: 15rem;
     
   }
   </style>

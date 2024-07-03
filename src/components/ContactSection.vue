@@ -1,7 +1,6 @@
 <template>
-  <div class="d-flex justify-content-center align-content-center">
-    <div>
-      <form
+  <div class="d-flex justify-content-center align-content-center" id="formDiv">
+    <form
         id="fs-frm"
         name="simple-contact-form"
         accept-charset="utf-8"
@@ -10,7 +9,7 @@
       >
         <div class="row">
           <div>
-            <h2 class="text-center mt-5">Contact Me:</h2>
+            <h2 class="text-center">Contact Me:</h2>
             <div class="">
               <input
                 type="text"
@@ -60,6 +59,13 @@
           ></a>
         </div>
       </form>
-    </div>
   </div>
 </template>
+
+
+<style scoped>
+#formDiv{
+  width: fit-content;
+  padding-inline: 0;
+}
+</style>

@@ -4,7 +4,7 @@
       <h3>Testimonials</h3>
 
 <div class="row justify-content-center">
-  <Card v-for="(Testimonial, id) in Testimonials" :key="id">
+  <Card v-for="(Testimonial, id) in Testimonials" :key="id" id="card">
         <template #cardHeader>
           <img
             :src="Testimonial.image"
@@ -43,4 +43,14 @@ h5 {
   padding-top: 1rem;
   text-decoration: underline;
 }
+
+#card{
+  max-height: 35rem;
+  
+}
+
+.container{
+    border:  3px solid var(--font);
+}
+
 </style>
