@@ -162,3 +162,7 @@ a:hover {
         height: 25rem;
     }
 }
+
+.noPadding{
+    padding: 0;
+}
