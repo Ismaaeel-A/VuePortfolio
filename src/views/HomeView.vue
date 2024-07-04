@@ -58,5 +58,9 @@ export default {
   min-height: fit-content;
 }
 
+#skills{
+  min-height: 92vh;
+}
+
 
 </style>
