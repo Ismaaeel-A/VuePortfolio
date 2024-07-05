@@ -2,7 +2,7 @@
   <div class="row text-center justify-content-center">
     <h3>Projects</h3>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center" v-if="Projects?.length">
       <Card v-for="(Project, id) in Projects" :key="id" data-aos="flip-left">
         <template #cardHeader>
           <img :src="Project.img" :alt="Project.title" class="img-fluid" />
@@ -24,6 +24,8 @@
         </template>
       </Card>
     </div>
+
+    <Loader v-else />
   </div>
 </template>
 
@@ -31,6 +33,7 @@
 import { computed, onMounted } from "vue";
 import { useStore } from "vuex";
 import Card from "./CardComp.vue";
+import Loader from "./LoaderComp.vue";
 
 const store = useStore();
 const Projects = computed(() => store.state.Projects);
@@ -46,9 +49,7 @@ img {
   width: 100%;
 }
 
-button{
+button {
   border-radius: 100px;
 }
-
-
 </style>

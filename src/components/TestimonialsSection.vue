@@ -1,10 +1,14 @@
 <template>
+  <div class="row text-center justify-content-center">
+    <h3>Testimonials</h3>
 
-    <div class="row text-center justify-content-center">
-      <h3>Testimonials</h3>
-
-<div class="row justify-content-center">
-  <Card v-for="(Testimonial, id) in Testimonials" :key="id" id="card" data-aos="zoom-in-up">
+    <div class="row justify-content-center" v-if="Testimonials?.length">
+      <Card
+        v-for="(Testimonial, id) in Testimonials"
+        :key="id"
+        id="card"
+        data-aos="zoom-in-up"
+      >
         <template #cardHeader>
           <img
             :src="Testimonial.image"
@@ -17,17 +21,18 @@
         <template #cardBody>
           <p>{{ Testimonial.comment }}</p>
         </template>
-
       </Card>
-</div>
     </div>
 
+    <Loader v-else />
+  </div>
 </template>
 
 <script setup>
 import { computed, onMounted } from "vue";
 import { useStore } from "vuex";
 import Card from "./CardComp.vue";
+import Loader from "./LoaderComp.vue";
 
 const store = useStore();
 const Testimonials = computed(() => store.state.Testimonials);
@@ -44,13 +49,11 @@ h5 {
   text-decoration: underline;
 }
 
-#card{
+#card {
   max-height: 35rem;
-  
 }
 
-.container{
-    border:  3px solid var(--font);
+.container {
+  border: 3px solid var(--font);
 }
-
 </style>

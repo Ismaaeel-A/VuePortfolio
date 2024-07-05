@@ -8,43 +8,41 @@
       method="POST"
     >
       <div class="row no-gutters d-flex justify-content-center">
-      
-          <h2 class="text-center">Contact Me:</h2>
-          <div class="noPadding fitContent">
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="Enter your name..."
-              required
-              class="my-2 rounded"
-            />
-          </div>
+        <h2 class="text-center">Contact Me:</h2>
+        <div class="noPadding fitContent">
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name..."
+            required
+            class="my-2 rounded"
+          />
+        </div>
 
-          <div class="fitContent">
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Enter your email..."
-              required
-              class="my-2 rounded"
-            />
-          </div>
+        <div class="fitContent">
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email..."
+            required
+            class="my-2 rounded"
+          />
+        </div>
 
-          <div class="fitContent">
-            <textarea
-              name="message"
-              id="message"
-              placeholder="Add message here..."
-              required
-              class="my-2 rounded"
-            ></textarea>
-          </div>
-          <div class="fitContent">
-            <input type="submit" value="Submit" class="my-2 rounded" />
-          </div>
-      
+        <div class="fitContent">
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Add message here..."
+            required
+            class="my-2 rounded"
+          ></textarea>
+        </div>
+        <div class="fitContent">
+          <input type="submit" value="Submit" class="my-2 rounded" />
+        </div>
       </div>
 
       <div class="d-flex justify-content-center mt-4">
@@ -60,7 +58,6 @@
           ><i class="bi bi-linkedin"></i
         ></a>
       </div>
-      
     </form>
   </div>
 </template>
@@ -84,14 +81,13 @@
   transform: scale(0.95);
 }
 
-.fitContent{
+.fitContent {
   display: flex;
   justify-content: center;
   padding: 0;
 }
 
-i{
+i {
   padding-inline: 0.5rem;
 }
-
 </style>
