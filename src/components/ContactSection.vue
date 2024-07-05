@@ -7,10 +7,10 @@
       action="https://formspree.io/f/xqkrjklb"
       method="POST"
     >
-      <div class="row no-gutters">
+      <div class="row no-gutters d-flex justify-content-center">
       
           <h2 class="text-center">Contact Me:</h2>
-          <div class="noPadding">
+          <div class="noPadding fitContent">
             <input
               type="text"
               id="name"
@@ -21,7 +21,7 @@
             />
           </div>
 
-          <div>
+          <div class="fitContent">
             <input
               type="email"
               id="email"
@@ -32,7 +32,7 @@
             />
           </div>
 
-          <div class="">
+          <div class="fitContent">
             <textarea
               name="message"
               id="message"
@@ -41,7 +41,7 @@
               class="my-2 rounded"
             ></textarea>
           </div>
-          <div class="">
+          <div class="fitContent">
             <input type="submit" value="Submit" class="my-2 rounded" />
           </div>
       
@@ -80,5 +80,10 @@
 [type="submit"]:active {
   color: #242423;
   transform: scale(0.95);
+}
+
+.fitContent{
+  display: flex;
+  justify-content: center;
 }
 </style>
