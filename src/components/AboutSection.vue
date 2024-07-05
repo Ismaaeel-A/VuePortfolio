@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div v-if="About?.length" class="row " >
+    <div v-if="About?.length" class="row">
       <h3>About</h3>
       <p>{{ About[0]?.p1 }}</p>
 
@@ -13,13 +13,15 @@
 
       <p>{{ About[0]?.p2 }}</p>
     </div>
+
+    <Loader v-else />
   </div>
 </template>
 
 <script setup>
 import { computed, onMounted } from "vue";
 import { useStore } from "vuex";
-
+import Loader from "./LoaderComp.vue";
 const store = useStore();
 const About = computed(() => store.state.About);
 
@@ -30,12 +32,12 @@ onMounted(() => {
 </script>
 
 <style scoped>
-  p, ul {
-    margin-block: 1.5rem;
+p,
+ul {
+  margin-block: 1.5rem;
 
-    & li {
-      margin-block: 1rem;
-    }
+  & li {
+    margin-block: 1rem;
   }
-
+}
 </style>

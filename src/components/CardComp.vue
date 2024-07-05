@@ -17,21 +17,18 @@ export default {
 </script>
 
 <style scoped>
-
-
-.card{
+.card {
   width: 18rem;
   /* height: 30rem; */
   margin: 1rem;
-  background-color: #6D6053;
+  background-color: #6d6053;
 
-  border: 5px solid #CE9461;
+  border: 5px solid #ce9461;
   border-radius: 20px;
-  box-shadow:  0 0 10px #242423;
-
+  box-shadow: 0 0 10px #242423;
 }
 
-.overflow{
-    overflow-y:auto;
+.overflow {
+  overflow-y: auto;
 }
 </style>
