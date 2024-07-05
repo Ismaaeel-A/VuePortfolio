@@ -14,7 +14,7 @@
       <div class="col">
         <div class="details">
           <h1 class="display-1" data-aos="fade-down-left">Ismaa'eel Ahmed</h1>
-          <p data-aos="fade-up-left"><span>Developer</span></p>
+          <p data-aos="fade-up-left"><span>Aspiring Developer</span></p>
         </div>
       </div>
     </div>
