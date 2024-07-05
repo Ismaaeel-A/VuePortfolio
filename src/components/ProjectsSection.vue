@@ -5,7 +5,7 @@
     <div class="row justify-content-center" v-if="Projects?.length">
       <Card v-for="(Project, id) in Projects" :key="id" data-aos="flip-left">
         <template #cardHeader>
-          <img :src="Project.img" :alt="Project.title" class="img-fluid" />
+          <img :src="Project.img" :alt="Project.title" loading="lazy" class="img-fluid" />
         </template>
 
         <template #cardBody>

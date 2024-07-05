@@ -90,4 +90,12 @@
 i {
   padding-inline: 0.5rem;
 }
+
+a{
+  transition: transform 0.3s;
+}
+
+a:hover{
+  transform: scale(1.2);
+}
 </style>

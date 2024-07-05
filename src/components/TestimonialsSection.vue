@@ -14,6 +14,7 @@
             :src="Testimonial.image"
             :alt="Testimonial.personName"
             class="img-fluid"
+            loading="lazy"
           />
           <h5>{{ Testimonial.personName }}</h5>
         </template>
