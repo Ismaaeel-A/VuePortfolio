@@ -8,7 +8,7 @@
         <span>{{Skill.level}}</span>
         <p>{{Skill.p}}</p> -->
 
-        <img :src="Skill.img" alt="Skill.name" class="">
+        <img :src="Skill.img" alt="Skill.name" data-aos="fade-up">
         <!-- <span>{{ Skill.name }}</span> -->
       </div>
     </div>
