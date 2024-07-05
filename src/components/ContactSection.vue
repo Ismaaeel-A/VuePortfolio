@@ -48,7 +48,7 @@
       </div>
 
       <div class="d-flex justify-content-center mt-4">
-        <i class="bi bi-telephone-fill"><span>081 789 8384</span></i>
+        <i class="bi bi-telephone-fill"></i>
         <a href="https://github.com/Ismaaeel-A?tab=repositories" target="_blank"
           ><i class="bi bi-github"></i
         ></a>
@@ -85,5 +85,11 @@
 .fitContent{
   display: flex;
   justify-content: center;
+  padding: 0;
 }
+
+i{
+  padding-inline: 0.5rem;
+}
+
 </style>

@@ -91,7 +91,6 @@ section {
 .body {
     background-color: var(--background);
     color: var(--font);
-    box-shadow: inset 0 0 70px black;
 }
 
 .navbar {
@@ -144,7 +143,7 @@ i {
     }
 }
 
-a:hover {
+.nav a:hover {
     text-shadow: 0 0 3px var(--font);
     color: var(--accent);
 }
