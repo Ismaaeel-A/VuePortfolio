@@ -8,7 +8,7 @@
         :key="id"
         class="d-flex justify-content-center col-md-3 col-sm-6 my-5 skills"
       >
-        <img :src="Skill.img" alt="Skill.name" data-aos="fade-up" />
+        <img :src="Skill.img" alt="Skill.name" loading="lazy" data-aos="fade-up" />
       </div>
     </div>
 
@@ -36,7 +36,4 @@ img {
   max-width: 12rem;
 }
 
-.img-container {
-  width: fit-content;
-}
 </style>
