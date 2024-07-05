@@ -4,7 +4,7 @@
       <h3>Testimonials</h3>
 
 <div class="row justify-content-center">
-  <Card v-for="(Testimonial, id) in Testimonials" :key="id" id="card">
+  <Card v-for="(Testimonial, id) in Testimonials" :key="id" id="card" data-aos="zoom-in-up">
         <template #cardHeader>
           <img
             :src="Testimonial.image"
