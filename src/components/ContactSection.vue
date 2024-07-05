@@ -48,7 +48,9 @@
       </div>
 
       <div class="d-flex justify-content-center mt-4">
-        <i class="bi bi-telephone-fill"></i>
+        <a href="https://maps.app.goo.gl/erjxTWQ1FVStxECP8" target="_blank">
+          <i class="bi bi-geo-alt-fill"></i>
+        </a>
         <a href="https://github.com/Ismaaeel-A?tab=repositories" target="_blank"
           ><i class="bi bi-github"></i
         ></a>
