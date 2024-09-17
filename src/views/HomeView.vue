@@ -20,9 +20,9 @@
       <ProjectsSection/>
     </section>
 
-    <section class="row" id="testimonials">
+    <!-- <section class="row" id="testimonials">
       <TestimonialSection/>
-    </section>
+    </section> -->
 
     <section class="row" id="reachMe">
       <ContactSection/>
@@ -36,7 +36,7 @@ import AboutSection from "../components/AboutSection.vue";
 import EducationExperienceSection from "../components/EducationExperienceSection.vue";
 import SkillsSection from "../components/SkillsSection.vue";
 import ProjectsSection from "../components/ProjectsSection.vue"
-import TestimonialSection from "../components/TestimonialsSection.vue"
+// import TestimonialSection from "../components/TestimonialsSection.vue"
 import ContactSection from "../components/ContactSection.vue"
 
 export default {
@@ -47,7 +47,7 @@ export default {
     EducationExperienceSection,
     SkillsSection,
     ProjectsSection,
-    TestimonialSection,
+    // TestimonialSection,
     ContactSection
   },
 };
