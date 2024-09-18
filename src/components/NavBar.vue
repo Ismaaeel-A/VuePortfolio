@@ -49,8 +49,13 @@
 </template>
 
 <style scoped>
-a:hover {
-  text-shadow: 0 0 3px var(--font);
-  color: var(--accent);
+.nav-link {
+  transition: color 0.3s , text-decoration 0.3s, transform 0.3s;
+  &:hover{
+    color: var(--font);
+    text-decoration: underline;
+    transform: scale(1.2);
+  }
+
 }
 </style>

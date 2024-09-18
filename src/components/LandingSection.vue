@@ -15,8 +15,8 @@
         <div class="details">
           <h1 class="display-1" data-aos="fade-up"
           data-aos-anchor-placement="top-bottom">Ismaa'eel Ahmed</h1>
-          <p data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"><span>Aspiring Developer</span></p>
+          <h4 data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"><span>Aspiring Developer</span></h4>
         </div>
       </div>
     </div>
@@ -36,5 +36,7 @@ onMounted(async () => {
 <style scoped>
 img {
   min-width: 15rem;
+  width: 30rem;
+  max-width: 100%;
 }
 </style>

@@ -4,8 +4,8 @@
 
     <div v-if="EducationExperience?.length" class="row">
       <div v-for="(Edu, id) in EducationExperience" :key="id" class="eduxp">
-        <h5>{{ Edu.heading }}</h5>
-        <p>{{ Edu.p }}</p>
+        <h5 data-aos="zoom-out">{{ Edu.heading }}</h5>
+        <p data-aos="zoom-out">{{ Edu.p }}</p>
       </div>
     </div>
 
@@ -27,4 +27,8 @@ onMounted(() => {
 });
 </script>
 
-<style scoped></style>
+<style scoped>
+p{
+  color: var(--background);
+}
+</style>
