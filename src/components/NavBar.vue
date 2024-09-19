@@ -36,10 +36,6 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#testimonials">Testimonials</a>
-          </li>
-
-          <li class="nav-item">
             <a class="nav-link mx-2" href="#reachMe">Contact</a>
           </li>
         </ul>
