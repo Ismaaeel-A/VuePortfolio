@@ -131,6 +131,7 @@ input {
 
 button {
     background-color: var(--background);
+    transition: background 0.3s;
 
     &:hover {
         background-color: var(--accent);

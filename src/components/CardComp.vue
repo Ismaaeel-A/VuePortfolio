@@ -19,11 +19,12 @@ export default {
 <style scoped>
 .card {
   width: 18rem;
+  padding-top: 0.8rem;
   /* height: 30rem; */
   margin: 1rem;
-  background-color: #6d6053;
+  background: linear-gradient( var(--background), var(--font));
 
-  border: 5px solid linear;
+  border: 5px solid var(--background);
   border-radius: 20px;
   box-shadow: 0 0 10px #242423;
 }

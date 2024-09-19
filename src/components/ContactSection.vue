@@ -134,4 +134,8 @@ h2 {
     text-decoration: underline;
     text-decoration-color: var(--primary);
 }
+
+::placeholder{
+  color: var(--font);
+}
 </style>

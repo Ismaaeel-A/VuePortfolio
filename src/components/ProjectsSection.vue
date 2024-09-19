@@ -11,7 +11,7 @@
         <template #cardBody>
           <h5>{{ Project.title }}</h5>
 
-          <div class="d-flex justify-content-evenly">
+          <div class="d-flex justify-content-evenly mb-2">
             <a :href="Project.github" target="_blank"
               ><button type="button"><i class="bi bi-github"></i></button>
             </a>
@@ -51,5 +51,9 @@ img {
 
 button {
   border-radius: 100px;
+}
+
+h5{
+  color: var(--accent);
 }
 </style>

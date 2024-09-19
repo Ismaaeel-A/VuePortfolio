@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h3>Education and Experience</h3>
+    <h3 data-aos="zoom-out">Education and Experience</h3>
 
     <div v-if="EducationExperience?.length" class="row">
       <div v-for="(Edu, id) in EducationExperience" :key="id" class="eduxp">
