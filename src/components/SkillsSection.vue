@@ -21,7 +21,7 @@
         :key="id"
         class="d-flex justify-content-center align-content-center col-md-2 col-sm-6 flex-wrap skills"  data-aos="fade-up" 
       >
-        <img :src="Skill.img" alt="Skill.name" loading="lazy"/>
+        <img :src="Skill.img" class="img-fluid rounded-circle" alt="Skill.name" loading="lazy"/>
       </div>
     </div>
 
@@ -58,7 +58,7 @@ img {
 
 .skills{
   border-radius: 100%;
-  /* width: 10rem; */
+  max-width: 10rem;
   aspect-ratio: 1;
   margin: 2rem;
   background: linear-gradient( var(--background), var(--accent));
