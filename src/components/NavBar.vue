@@ -54,4 +54,8 @@
   }
 
 }
+
+a{
+  max-width: fit-content;
+}
 </style>
