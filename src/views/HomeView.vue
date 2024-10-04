@@ -7,13 +7,13 @@
     <section class="row" id="about">
       <AboutSection />
     </section>
+    
+    <section class="row" id="skills">
+      <SkillsSection />
+    </section>
 
     <section class="row" id="education">
       <EducationExperienceSection />
-    </section>
-
-    <section class="row" id="skills">
-      <SkillsSection />
     </section>
       
     <section class="row" id="project">

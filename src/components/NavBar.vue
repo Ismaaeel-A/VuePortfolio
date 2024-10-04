@@ -22,14 +22,15 @@
           <li class="nav-item">
             <a class="nav-link mx-2" href="#about">About</a>
           </li>
+          
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#skills">Skills</a>
+          </li>
 
           <li class="nav-item">
             <a class="nav-link mx-2" href="#education">Education</a>
           </li>
 
-          <li class="nav-item">
-            <a class="nav-link mx-2" href="#skills">Skills</a>
-          </li>
 
           <li class="nav-item">
             <a class="nav-link mx-2" href="#project">Projects</a>

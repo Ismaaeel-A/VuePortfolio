@@ -6,7 +6,7 @@
           src="https://ismaaeel-a.github.io/allimages/Images/Profile.png"
           alt="profile"
           loading="lazy"
-          class="img-fluid"
+          class="img-fluid rounded-circle"
           data-aos="fade-right"
         />
       </div>

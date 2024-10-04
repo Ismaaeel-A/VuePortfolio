@@ -82,7 +82,7 @@ span{
   transition: transform 0.2s;
 
   &:hover{
-  transform: scale(1.1);
+  transform: scale(0.9);
 }
 }
 

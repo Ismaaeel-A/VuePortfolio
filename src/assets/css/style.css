@@ -76,7 +76,7 @@ li {
     margin-left: 2rem;
 }
 
-h3 , h5 {
+h3 , h4 , h5 {
     color: var(--background);
     text-decoration: underline;
     text-decoration-color: var(--primary);
