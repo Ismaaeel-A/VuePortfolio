@@ -8,7 +8,7 @@
         </div>
     
         <Loader v-else /> -->
-    <h3 data-aos="zoom-out">Education and Experience</h3>
+    <h3 data-aos="zoom-out">Education / Experience</h3>
     <h4>Experience</h4>
     
     

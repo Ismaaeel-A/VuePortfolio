@@ -28,7 +28,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link mx-2" href="#education">Education</a>
+            <a class="nav-link mx-2" href="#education">Education / Experience</a>
           </li>
 
 
