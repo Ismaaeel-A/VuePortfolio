@@ -42,7 +42,7 @@
           ></textarea>
         </div>
         <div class="fitContent">
-          <input type="submit" value="Submit" class="my-2 rounded" />
+          <input type="submit" value="Submit" class="my-2 py-2 rounded" />
         </div>
         </div>
 

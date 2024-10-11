@@ -26,7 +26,67 @@
     </div>
 
     <Loader v-else />
+  <!--   <div class="row">
+      <h3 class="mb-3 text-center">Certificates</h3>
+
+      <div class="row">
+  <div class="col-4 certbox">
+    <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+      <nav class="nav nav-pills flex-column">
+        <a class="nav-link" href="#item-1">AWS</a>
+        <nav class="nav nav-pills flex-column">
+          <a class="nav-link ms-3 my-1" href="#item-1-1">Introduction-to-the-AWS-cloud</a>
+          <a class="nav-link ms-3 my-1" href="#item-1-2">Building-a-cloud-career</a>
+        </nav>
+        <a class="nav-link" href="#item-2">Item 2</a>
+        <a class="nav-link ms-3 my-1" href="#item-2-1">Item 1-2</a>
+      </nav>
+    </nav>
   </div>
+
+  <div class="col-8 certbox">
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+      <div id="item-1">
+        <h4>Item 1</h4>
+        <p>...</p>
+      </div>
+      <div id="item-1-1">
+        <h5>Introduction-to-the-AWS-cloud</h5>
+        <p>...</p>
+      </div>
+      <div id="item-1-2">
+        <h5>Building-a-cloud-career</h5>
+        <p>...</p>
+      </div>
+      <div id="item-2">
+        <h4>Item 2</h4>
+        <p>...</p>
+      </div>
+      <div id="item-2-1">
+        <h5>Item 2</h5>
+        <p>...</p>
+      </div>
+
+    </div>
+  </div>
+      </div>
+    </div> -->
+    
+    <h3 class="mb-3 text-center">Certificates</h3>
+    <div class="row justify-content-center">
+      <a href="" target="_blank">
+        <button type="button" class="cert">AWS</button>
+      </a>
+
+      <a href="" target="_blank">
+        <button type="button" class="cert">CISCO</button>
+      </a>
+
+    </div>
+  
+  </div>
+
+<!-- <a href="https://ismaaeel-a.github.io/Certificates/AWS-certificates/Introduction-to-the-AWS-cloud.pdf" target="_blank"><button>cert</button></a> -->
 </template>
 
 <script setup>
@@ -91,11 +151,46 @@ h5 {
     text-decoration: underline;
     text-decoration-color: var(--primary);
 }
+
+.cert{
+  width: 10rem;
+  border-radius: 20px;
+  color: var(--font);
+  padding: 1rem;
+  font-size: larger;
+
+  &:hover{
+    background: var(--primary);
+    /* color: var(--font); */
+  }
+}
+
+a{
+  width: fit-content;
+}
 /* .bg{
   background: linear-gradient( var(--background), var(--accent));
 }
 
 h3{
   color: var(--font);
+} */
+
+/* .certbox{
+  max-height: 20rem;
+  overflow-y: auto;
+}
+
+.certbox::-webkit-scrollbar {
+  width: 8px;
+}
+
+.certbox::-webkit-scrollbar-thumb {
+  background-color: var(--accent);
+  border-radius: 10px;
+}
+
+.certbox::-webkit-scrollbar-track {
+  background: transparent;
 } */
 </style>
