@@ -74,7 +74,7 @@
     
     <h3 class="mb-3 text-center">Certificates</h3>
     <div class="row justify-content-center">
-      <a href="" target="_blank">
+      <a href="https://drive.google.com/drive/folders/1mKCzo5kD3BFOpCqaLp12s1OZby-9xh9T?usp=drive_link" target="_blank">
         <button type="button" class="cert">AWS</button>
       </a>
 
