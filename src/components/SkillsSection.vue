@@ -78,9 +78,9 @@
         <button type="button" class="cert">AWS</button>
       </a>
 
-      <a href="" target="_blank">
+      <!-- <a href="" target="_blank">
         <button type="button" class="cert">CISCO</button>
-      </a>
+      </a> -->
 
     </div>
   
