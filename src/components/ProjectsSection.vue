@@ -46,7 +46,14 @@ onMounted(() => {
 
 <style scoped>
 img {
-  width: 100%;
+  /* width: 100%; */
+  width: 400px;
+  filter: grayscale(100%);
+
+  transition: filter 0.3s;
+  &:hover{
+    filter: grayscale(0%);
+  }
 }
 
 button {
